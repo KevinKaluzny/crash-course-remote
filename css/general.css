@@ -46,30 +46,25 @@ a:hover {
   height:auto;
   margin:0px auto 0px auto; }
 
-#headerContainer {
+#header {
   position:absolute;
   left:0px;
   top:340px; 
   width:890px;
-  height:100px;}
-  
-#contentContainer {
-  position:absolute;
-  left:0px;
-  top:450px;
-  padding-bottom:100px; }
+  height:100px;
+}
   
   
   
 /************************ Top Navi */
 #navigation {
   position:absolute;
-  left:575px;
   top:10px;
   color:#999;
   font-size:16px;
   line-height:25px;
-  text-align:center; }
+  text-align:center;
+}
 
 #navigation li {
   width:78px;
