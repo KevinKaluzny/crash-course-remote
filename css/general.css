@@ -81,11 +81,6 @@ a:hover {
   text-align: center;
 }
 
-#navigation ul {
-  display: flex;
-  flex-direction: column;
-}
-
 #navigation li {
   width: 78px;
   height: 33px;
@@ -98,18 +93,7 @@ a:hover {
 }
 
 #navigation li a {
-  color: #999;
-}
-
-.navbar-toggler {
-  padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
-  line-height: 1;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-  transition: box-shadow .15s ease-in-out;
-}
+  color: #d35400; }
 
 .learnParagraph {
   line-height: 50px;
