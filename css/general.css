@@ -1,5 +1,9 @@
 /************************ Global */
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -46,6 +50,12 @@ a:hover {
   text-decoration: underline;
 }
 
+#contentWrapper > * {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  border-radius: 3px;
+}
+
 
 /************************ Top Navi */
 
@@ -56,14 +66,13 @@ a:hover {
   font-size: 16px;
   line-height: 25px;
   text-align: center;
+  width: 100%;
 }
 
 #navigation li {
-  width: 78px;
-  height: 33px;
   list-style-type: none;
   list-style-image: none;
-  margin: 0px;
+  margin: 0 20px 0 20px;
   padding: 0px;
   float: left;
   background: url(../img/naviLineTop.png) no-repeat center top;
@@ -106,5 +115,4 @@ a:hover {
   left: 0px;
   top: 340px;
   width: 890px;
-  height: 100px;
 }
