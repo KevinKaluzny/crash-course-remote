@@ -1,10 +1,11 @@
+/************************ Global */
+
 * {
   margin: 0px;
   padding: 0px;
 }
 
-html,
-body {
+html, body {
   font-size: 14px;
   line-height: 20px;
   font-family: "Arial", "Helvetica", "Lucida Grande";
@@ -27,12 +28,7 @@ body {
   background-attachment: fixed;
 }
 
-
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
   color: #ffd84c;
   font-family: "Trebuchet MS", "Trebuchet";
 }
@@ -51,27 +47,8 @@ a:hover {
 }
 
 
-
-/************************ Main Structure */
-#contentWrapper {
-  position: relative;
-  width: 890px;
-  min-height: 100%;
-  height: auto;
-  margin: 0px auto 0px auto;
-}
-
-#header {
-  position: absolute;
-  left: 0px;
-  top: 340px;
-  width: 890px;
-  height: 100px;
-}
-
-
-
 /************************ Top Navi */
+
 #navigation {
   position: absolute;
   top: 10px;
@@ -111,4 +88,23 @@ a:hover {
   line-height: 50px;
   padding-left: 35px;
   background: url(../img/iconTwitter.png) no-repeat left center;
+}
+
+
+/************************ Main Structure */
+
+#contentWrapper {
+  position: relative;
+  width: 890px;
+  min-height: 100%;
+  height: auto;
+  margin: 0px auto 0px auto;
+}
+
+#header {
+  position: absolute;
+  left: 0px;
+  top: 340px;
+  width: 890px;
+  height: 100px;
 }
