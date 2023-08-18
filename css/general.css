@@ -35,6 +35,7 @@ body {
 h1, h2, h3, h4, h5 {
   color: #ffd84c;
   font-family: "Trebuchet MS", "Trebuchet";
+  margin-bottom: 50px;
 }
 
 p {
